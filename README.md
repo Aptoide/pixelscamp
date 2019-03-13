@@ -1,7 +1,7 @@
 # Pixels Camp 2019: Aptoide / AppCoins
 Aptoide / AppCoins challenge for Pixels Camp
 
-## Challenge 1 - Game: bet your AppCoins 
+## Challenge 1 - Game on: risk your AppCoins that you can win!
 
 ### Description
 
@@ -59,15 +59,21 @@ Go develop your game and challenge the other Pixels camp participants to spend t
  **Step 2 - Waiting for the participants**
  
   - Monitor Wallet transactions (deposits): 
-   - Endpoint: 
-   - Description:
+    - Endpoint: 
+    - Description:
 
 **Step 4 - Game over: time to reward the winner**
 
   - Transfer (deposits): 
-   - Endpoint: 
-   - Description:
+    - Endpoint: 
+    - Description:
 
 
 
 ### Support
+
+Aptoide / AppCoins team is at the event venue and on-line to help to overcome any seatback. Feel free to reach out anytime.
+
+
+
+
