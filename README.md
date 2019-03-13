@@ -6,21 +6,21 @@ Aptoide / AppCoins challenge for Pixels Camp
 ### Description
 
 Every participant of Pixels Camp will have a AppCoins credits gift card with $5 worth of AppCoins credits.
-AppCoins is a [cryptocurrency](https://coinmarketcap.com/currencies/appcoins/) used by Aptoide and other app stores for in-app purchases. [AppCoins credits](https://medium.com/@PauloTrezentos/what-are-appcoins-credits-appc-c-2217e8f8568c) is a easier way to use AppCoins without the need to pay Ethereum gas fees, using smart contracts to register the events in the blockchain and with  collateral deposits.
+AppCoins is a [cryptocurrency](https://coinmarketcap.com/currencies/appcoins/) used by Aptoide and other app stores for in-app purchases. [AppCoins credits](https://medium.com/@PauloTrezentos/what-are-appcoins-credits-appc-c-2217e8f8568c) is an easier way to use AppCoins without the need to pay Ethereum gas fees, using smart contracts to register the events in the blockchain and with collateral deposits.
 
-> Aptoide / AppCoins team challenges the Pixels Camp participants to develop a game (any game) where for each round, the participants deposit some AppCoins and the winner takes it all.
+> Aptoide / AppCoins team challenges the Pixels Camp participants to develop a game (any game) where at§ each round, the participants deposit some AppCoins credits and the winner takes it all.
 
 The steps would be as follow:
 
-1. Step 1 - Preparing the game
+1. **Step 1** - Preparing the game
 
 In the begin of the round of your game, you create a new wallet (ERC20) and ask the participants to transfer AppCoins credits to that wallet. The ammount of AppCoins should be the same among the participants. To make it easier, you can show a QR code with the wallet address, and the participant use their [AppCoins wallet](https://play.google.com/store/apps/details?id=com.appcoins.wallet&hl=en) to scan it and do the transfer.
 
-2. Step 2 - Waiting for the participants
+2. **Step 2** - Waiting for the participants
 
 After a certain time (e.g. 30 seconds), if you have 2 or more deposits, it means you have enough participants and the show can start.
 
-3. Step 3 - Game on: do your magic
+3. **Step 3** - Game on: do your magic
 
 This is the creative part. You can choose a skills or a game of chance.
 
@@ -30,7 +30,7 @@ In a game of chance, the luck plays the main role. Some examples of games of cha
 
 The game can run in a browser or in a mobile app. Is up to you. In the first case, Pixels camp participants sit around a computer to play. In the second case, someone downloads the app and the players interact with that phone. Each participant needs to have the wallet installed in their phone to do the transfers.
 
-4. Step 4 - Game over: time to reward the winner
+4. **Step 4** - Game over: time to reward the winner
 
 When the game is over, you transfer to the winner the amount of AppCoins credits deposited in the wallet in step 2. If you wish and the participants allow, you can keep a small margin to reward your effort. 
 Besides wining Pixels Camp first prize, you go home with a lot of AppCoins credits to use in your favorite games.
@@ -63,7 +63,15 @@ Go develop your game and challenge the other Pixels camp participants to spend t
     - Description:
 
 **Step 4 - Game over: time to reward the winner**
-
+    
+   - Obtain the nounce: 
+    - Endpoint: 
+    - Description:
+    
+  - Signature: 
+    - Endpoint: 
+    - Description:
+    
   - Transfer (deposits): 
     - Endpoint: 
     - Description:
