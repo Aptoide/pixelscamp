@@ -46,39 +46,89 @@ Go develop your game and challenge the other Pixels camp participants to spend t
 ### Resources
 
 **Step 1 - Preparing the game**
- 
- - Create the wallet: 
-   - Endpoint: 
-   - Description:
-   
- - Generate the QR Code:
-   - Endpoint: 
-   - Description:
-   
+
+ - Create the wallet [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md):
+   - Endpoint (GET): https://apichain.blockchainds.com/transaction/generate
+   - Response:
+```sh
+{
+    wallet=<wallet>,
+    private_key=<private_key>
+}
+```
+
  - Participants - Wallet installation:
-   - AppCoins wallet installation: [Install from Aptoide](https://appcoins-wallet.en.aptoide.com) or [Instal from Play](https://play.google.com/store/apps/details?id=com.appcoins.wallet&hl=en_US)
+   - AppCoins wallet installation: [Install from Aptoide](https://appcoins-wallet.en.aptoide.com) or [Install from Play](https://play.google.com/store/apps/details?id=com.appcoins.wallet&hl=en_US)
    - Description: After installing the wallet and redeem the Gift card, the participants may go "Send" and scan the QR code of the game wallet.
    
  **Step 2 - Waiting for the participants**
- 
-  - Monitor Wallet transactions (deposits): 
-    - Endpoint: 
-    - Description:
+
+  - Monitor Wallet transactions [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md):
+    - Website: https://ropsten.appscan.ga/
+    - Endpoint (GET): https://apichain.blockchainds.com/appc/wallethistory
+    - Parameters: wallet
+    - Response:
+```sh
+{
+  "result": [
+    {
+      "TxID": <txid>,
+      "amount": <amount_in_wei>,
+      "block": <block>,
+      "icon": <icon>,
+      "receiver": <receiver>,
+      "sender": <sender>,
+      "ts": <timestamp>,
+      "type": <type>
+    },
+    ...]
+}
+```
 
 **Step 4 - Game over: time to reward the winner**
-    
-   - Obtain the nounce: 
-    - Endpoint: 
-    - Description:
-    
-  - Signature: 
-    - Endpoint: 
-    - Description:
-    
-  - Transfer (deposits): 
-    - Endpoint: 
-    - Description:
 
+  - Obtain the nonce [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md)
+    - Endpoint (GET): https://apichain.blockchainds.com/transaction/nonce
+    - Parameters: wallet
+    - Response:
+```sh
+{
+    wallet=<wallet>,
+    nonce=<nonce>
+}
+```
+
+  - Sign [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md)
+    - Endpoint (GET): https://apichain.blockchainds.com/transaction/sign
+    - Parameters: message, private_key
+    - Response:
+```sh
+{
+    signer=<signer>,
+    signature=<signature>
+}
+```
+
+  - Verify [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md)
+    - Endpoint (GET): https://apichain.blockchainds.com/transaction/verify
+    - Parameters: message, signature
+    - Response:
+```sh
+{
+    signer=<signer>
+}
+```
+
+  - Transfer (deposits) [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md)
+    - Endpoint (POST): https://apichain.blockchainds.com/transaction/transfer
+    - Parameters: sender, receiver, amount, signature
+    - Response:
+```sh
+{
+    txid=<txid>,
+    status="COMPLETED"
+}
+```
 
 
 ### Support
@@ -86,8 +136,4 @@ Go develop your game and challenge the other Pixels camp participants to spend t
 Aptoide / AppCoins team is at the event venue and on-line in Gitter to help you to overcome any seatback. Feel free to reach out anytime:
 
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/AppCoinsProject/PixelsCamp)
-
-
-
-
 
