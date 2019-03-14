@@ -12,7 +12,8 @@ curl https://apichain-dev.blockchainds.com/transaction/generate
 }
 ```
 
-### Check Wallet History - No Tx Received
+### Check Wallet History
+No Tx Received
 ```sh
 curl https://apichain-dev.blockchainds.com/appc/wallethistory?wallet=0xd68b4cD23D2849Aa715372170cc434850A005ac3
 {
@@ -20,7 +21,8 @@ curl https://apichain-dev.blockchainds.com/appc/wallethistory?wallet=0xd68b4cD23
 }
 ```
 
-### Check Wallet History - Two Tx Received (amount is in Wei, 1 APPC = 10^18 Wei)
+### Check Wallet History
+Two Tx Received (amount is in Wei, 1 APPC = 10^18 Wei)
 ```sh
 curl https://apichain-dev.blockchainds.com/appc/wallethistory?wallet=0xd68b4cD23D2849Aa715372170cc434850A005ac3
 {
