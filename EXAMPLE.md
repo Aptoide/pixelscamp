@@ -76,7 +76,8 @@ curl https://apichain-dev.blockchainds.com/transaction/nonce
 }
 ```
 
-### Sign A Message (signer == wallet)
+### Sign A Message 
+signer == wallet
 ```sh
 curl "https://apichain-dev.blockchainds.com/transaction/sign?message=0&private_key=0x74bbb090d3fd29487ba4d6bb16e202d860008519558bbcecd3a6c76df6387964"
 {
@@ -85,7 +86,7 @@ curl "https://apichain-dev.blockchainds.com/transaction/sign?message=0&private_k
 }
 ```
 
-### Sign A Message (signer == wallet) - Wrong Arguments
+### Sign A Message - Wrong Arguments
 ```sh
 curl https://apichain-dev.blockchainds.com/transaction/sign?message=0
 {
@@ -94,7 +95,8 @@ curl https://apichain-dev.blockchainds.com/transaction/sign?message=0
 }
 ```
 
-### Verify A Message (signer == wallet)
+### Verify A Message
+(signer == wallet)
 ```sh
 curl "https://apichain-dev.blockchainds.com/transaction/verify?message=0&signature=0x8b9c1b0bc5dc4fdc94769b580a64d1e96850355344b5d1cbb8a2bd843740be44352460d0e78421a73f0aa7d2162bd36eb61c40870c711e6a63a071499c40ae9a1b"
 {
@@ -102,7 +104,7 @@ curl "https://apichain-dev.blockchainds.com/transaction/verify?message=0&signatu
 }
 ```
 
-### Verify A Message (signer == wallet) - Wrong Arguments
+### Verify A Message - Wrong Arguments
 ```sh
 curl https://apichain-dev.blockchainds.com/transaction/verify?message=0
 {
