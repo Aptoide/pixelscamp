@@ -8,10 +8,10 @@ Aptoide / AppCoins challenge for Pixels Camp
 
 ### Description
 
-Every participant of Pixels Camp will have a AppCoins credits gift card with $5 worth of AppCoins credits.
+Every participant of Pixels Camp will have an AppCoins gift card with $5 worth of AppCoins credits.
 AppCoins is a [cryptocurrency](https://coinmarketcap.com/currencies/appcoins/) used by Aptoide and other app stores for in-app purchases. [AppCoins credits](https://medium.com/@PauloTrezentos/what-are-appcoins-credits-appc-c-2217e8f8568c) is an easier way to use AppCoins without the need to pay Ethereum gas fees, using smart contracts to register the events in the blockchain and with collateral deposits.
 
-> Aptoide / AppCoins team challenges the Pixels Camp participants to develop a game (any game) where at§ each round, the participants deposit some AppCoins credits and the winner takes it all.
+> Aptoide / AppCoins team challenges the Pixels Camp participants to develop a game (any game) where at each round, the participants deposit some AppCoins credits and the winner takes it all.
 
 The steps would be as follow:
 
