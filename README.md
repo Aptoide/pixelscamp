@@ -59,7 +59,7 @@ Go develop your game and challenge the other Pixels camp participants to spend t
 
  - Participants - Wallet installation:
    - AppCoins wallet installation: [Install from Aptoide](https://appcoins-wallet.en.aptoide.com) or [Install from Play](https://play.google.com/store/apps/details?id=com.appcoins.wallet&hl=en_US)
-   - Description: After installing the wallet and redeem the Gift card, the participants may go "Send" and scan the QR code of the game wallet.
+   - Description: After installing the wallet and redeem the Gift card, the participants may go to "Send" option in the navigation bar, and scan the QR code of the game wallet.
    
  **Step 2 - Waiting for the participants**
 
