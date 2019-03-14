@@ -47,7 +47,7 @@ Go develop your game and challenge the other Pixels camp participants to spend t
 
 **Step 1 - Preparing the game**
 
- - Create the wallet [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md):
+ - Create the wallet [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md) [Go to Real Cool Heading section](#generate-wallet):
    - Endpoint (GET): https://apichain.blockchainds.com/transaction/generate
    - Response:
 ```sh
