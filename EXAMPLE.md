@@ -3,7 +3,7 @@
 ## DEV Example 
 For PROD use https://apichain.blockchainds.com instead
 
-### Generate Wallet
+### Generate Wallet[Generate Wallet](#generate-wallet)
 ```sh
 curl https://apichain-dev.blockchainds.com/transaction/generate
 {
