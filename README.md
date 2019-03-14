@@ -63,7 +63,7 @@ Go develop your game and challenge the other Pixels camp participants to spend t
    
  **Step 2 - Waiting for the participants**
 
-  - Monitor Wallet transactions [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md):
+  - Monitor Wallet transactions [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md#check-wallet-history):
     - Website: https://ropsten.appscan.ga/
     - Endpoint (GET): https://apichain.blockchainds.com/appc/wallethistory
     - Parameters: wallet
@@ -87,7 +87,7 @@ Go develop your game and challenge the other Pixels camp participants to spend t
 
 **Step 4 - Game over: time to reward the winner**
 
-  - Obtain the nonce [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md)
+  - Obtain the nonce [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md#check-wallet-nonce)
     - Endpoint (GET): https://apichain.blockchainds.com/transaction/nonce
     - Parameters: wallet
     - Response:
@@ -98,7 +98,7 @@ Go develop your game and challenge the other Pixels camp participants to spend t
 }
 ```
 
-  - Sign [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md)
+  - Sign [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md#sign-a-message)
     - Endpoint (GET): https://apichain.blockchainds.com/transaction/sign
     - Parameters: message, private_key
     - Response:
@@ -109,7 +109,7 @@ Go develop your game and challenge the other Pixels camp participants to spend t
 }
 ```
 
-  - Verify [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md)
+  - Verify [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md#verify-a-message)
     - Endpoint (GET): https://apichain.blockchainds.com/transaction/verify
     - Parameters: message, signature
     - Response:
@@ -119,7 +119,7 @@ Go develop your game and challenge the other Pixels camp participants to spend t
 }
 ```
 
-  - Transfer (deposits) [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md)
+  - Transfer (deposits) [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md#send-appc-credits)
     - Endpoint (POST): https://apichain.blockchainds.com/transaction/transfer
     - Parameters: sender, receiver, amount, signature
     - Response:
