@@ -61,6 +61,8 @@ curl https://apichain-dev.blockchainds.com/appc/wallethistory
 ```
 
 ### Check Wallet Nonce
+Nonce represents the current number of transactions performed by a wallet. 
+This is a relevant info since one has to sign his current nonce and provide that signature to transfer APPC Credits.
 ```sh
 curl https://apichain-dev.blockchainds.com/transaction/nonce?wallet=0xd68b4cD23D2849Aa715372170cc434850A005ac3
 {
@@ -79,7 +81,7 @@ curl https://apichain-dev.blockchainds.com/transaction/nonce
 ```
 
 ### Sign A Message 
-signer == wallet
+If the signature would be used to transfer APPC Credits, the message to be signed should be the current nonce.
 ```sh
 curl "https://apichain-dev.blockchainds.com/transaction/sign?message=0&private_key=0x74bbb090d3fd29487ba4d6bb16e202d860008519558bbcecd3a6c76df6387964"
 {
@@ -116,6 +118,7 @@ curl https://apichain-dev.blockchainds.com/transaction/verify?message=0
 ```
 
 ### Send APPC Credits
+The signature should be obtained by signing the current nonce, as message.
 ```sh
 curl -X POST https://apichain-dev.blockchainds.com/transaction/transfer -d "sender=0xd68b4cD23D2849Aa715372170cc434850A005ac3&receiver=0x4fbcc5ce88493c3d9903701c143af65f54481119&amount=2&signature=0x8b9c1b0bc5dc4fdc94769b580a64d1e96850355344b5d1cbb8a2bd843740be44352460d0e78421a73f0aa7d2162bd36eb61c40870c711e6a63a071499c40ae9a1b"
 {
