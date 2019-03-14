@@ -63,7 +63,7 @@ Go develop your game and challenge the other Pixels camp participants to spend t
    
  **Step 2 - Waiting for the participants**
 
-  - Monitor Wallet transactions [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md#check-wallet-history-no-tx-received):
+  - Monitor Wallet transactions [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md#check-wallet-history):
     - Website: https://ropsten.appscan.ga/
     - Endpoint (GET): https://apichain.blockchainds.com/appc/wallethistory
     - Parameters: wallet
