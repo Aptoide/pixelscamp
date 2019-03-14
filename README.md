@@ -120,6 +120,7 @@ Go develop your game and challenge the other Pixels camp participants to spend t
 ```
 
   - Transfer (deposits) [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md#send-appc-credits)
+    - Description: In order to transfer APPC Credits, the sender has to provide a signature to prove the ownership of that wallet. In order to avoid double spend, that signature can only be valid for one transaction, thus, the sender should sign his current nonce, as message, and provide that signature as an argument on this endpoint.
     - Endpoint (POST): https://apichain.blockchainds.com/transaction/transfer
     - Parameters: sender, receiver, amount, signature
     - Response:
