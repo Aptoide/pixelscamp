@@ -88,6 +88,7 @@ Go develop your game and challenge the other Pixels camp participants to spend t
 **Step 4 - Game over: time to reward the winner**
 
   - Obtain the nonce [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md#check-wallet-nonce)
+    - Description: Nonce represents the current number of transactions performed by a wallet. This is a relevant info since one has to sign his current nonce and provide that signature to transfer APPC Credits to another wallet.
     - Endpoint (GET): https://apichain.blockchainds.com/transaction/nonce
     - Parameters: wallet
     - Response:
