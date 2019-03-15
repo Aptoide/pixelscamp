@@ -103,6 +103,7 @@ Go develop your game and challenge the other Pixels camp participants to spend t
 ```
 
   - Sign [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md#sign-a-message)
+    - Description: Sign any given message by providing the private_key of the signer wallet
     - Endpoint (GET): https://apichain.blockchainds.com/transaction/sign
     - Parameters: message, private_key
     - Response:
@@ -114,6 +115,7 @@ Go develop your game and challenge the other Pixels camp participants to spend t
 ```
 
   - Verify [+INFO](https://github.com/Aptoide/pixelscamp/blob/master/EXAMPLE.md#verify-a-message)
+    - Description: Verify if a given signature indeed represents a specific message from a certain signer wallet
     - Endpoint (GET): https://apichain.blockchainds.com/transaction/verify
     - Parameters: message, signature
     - Response:
