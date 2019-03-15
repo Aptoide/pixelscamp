@@ -1,7 +1,7 @@
 # Pixels Camp 2019
 Aptoide / AppCoins challenge for Pixels Camp
 
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/AppCoinsProject/PixelsCamp)
+Need help ? [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/AppCoinsProject/PixelsCamp)
 
 
 ## Challenge 1 - Game on: risk your AppCoins that you can win!
