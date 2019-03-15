@@ -1,4 +1,4 @@
-# Pixels Camp 2019: Aptoide / AppCoins
+# Pixels Camp 2019
 Aptoide / AppCoins challenge for Pixels Camp
 
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/AppCoinsProject/PixelsCamp)
