@@ -13,7 +13,7 @@ AppCoins is a [cryptocurrency](https://coinmarketcap.com/currencies/appcoins/) u
 
 > Aptoide / AppCoins team challenges the Pixels Camp participants to develop a game (any game) where at each round, the participants deposit some AppCoins credits and the winner takes it all.
 
-![Game on: risk your appcoins](Pixels-camp-FG.png?raw=true "Risk your AppCoins!")
+![Game on: risk your appcoins](Pixels-camp-FG-1.png?raw=true "Risk your AppCoins!")
 
 
 The steps would be as follow:
