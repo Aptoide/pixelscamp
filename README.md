@@ -39,6 +39,8 @@ The game can run in a browser or in a mobile app. Is up to you. In the first cas
 4. **Step 4** - Game over: time to reward the winner
 
 When the game is over, you transfer to the winner the amount of AppCoins credits deposited in the wallet in step 2. If you wish and the participants allow, you can keep a small margin to reward your effort. 
+Every transaction shoould be visible in [APPC explorer](https://appcexplorer.io).
+
 Besides wining Pixels Camp first prize, you go home with a lot of AppCoins credits to use in your favorite games.
 
 What's next ?
