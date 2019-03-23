@@ -81,7 +81,7 @@ curl https://apichain.blockchainds.com/transaction/nonce
 ```
 
 ### Sign A Message 
-If the signature would be used to transfer APPC Credits, the message to be signed should be the current nonce.
+If the signature would be used to transfer APPC Credits, the message to be signed should be the current nonce(my_message_to_be_signed=nonce).
 ```sh
 curl "https://apichain.blockchainds.com/transaction/sign?message=my_message_to_be_signed&private_key=0x74bbb090d3fd29487ba4d6bb16e202d860008519558bbcecd3a6c76df6387964"
 {
