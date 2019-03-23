@@ -24,7 +24,7 @@ curl https://apichain.blockchainds.com/appc/wallethistory?wallet=0xd68b4cD23D284
 ### Check Wallet History
 Two Tx Received (amount is in Wei, 1 APPC = 10^18 Wei)
 ```sh
-curl https://apichain.blockchainds.com/appc/wallethistory?wallet=0xd68b4cD23D2849Aa715372170cc434850A005ac3
+curl https://apichain.blockchainds.com/appc/wallethistory?wallet=0xd68b4cD23D2849Aa715372170cc434850A005ac3&version_code=70
 {
   "result": [
     {
